@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Caprioli Cardoso | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-booting">
+  <div class="intro-loader" aria-label="Inicializando site de Gabriel Caprioli Cardoso">
+    <div class="intro-shell">
+      <p class="intro-path">caprioli.dev / boot</p>
+      <pre><code id="boot-code"></code><span class="boot-cursor"></span></pre>
+      <div class="intro-rule"></div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top">Caprioli</a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Perfil▾</a>
+      <a href="#skills">Skills▾</a>
+      <a href="#stack">Stack▾</a>
+      <a href="#projetos">Projetos▾</a>
+      <a href="#estudos">Estudos▾</a>
+    </nav>
+    <a class="header-cta" href="#contato">Enviar contato</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Gabriel Caprioli Cardoso · 19 anos · 3º semestre de Ciência da Computação</p>
+        <h1>Backend, DevOps e Cloud com base em suporte, dados e operação.</h1>
+        <p class="hero-text">
+          Mais conhecido como Caprioli, venho direcionando meus estudos para desenvolvimento backend, DevOps, Cloud e System Design. Minha base passa por análise de dados, SQL, Excel, suporte e infraestrutura.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#skills">Ver minhas skills</a>
+          <a class="button secondary" href="#atuacao">Como atuo →</a>
+        </div>
+        <div class="signal-row" aria-label="Resumo profissional">
+          <span>Node.js / TypeScript</span>
+          <span>DevOps e Cloud</span>
+          <span>System Design</span>
+        </div>
+      </div>
+
+      <aside class="code-card" aria-label="Resumo em formato de código">
+        <div class="code-header">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>perfil.ts</p>
+        </div>
+        <pre><code>// construindo perfil.ts
+
+const caprioli = await build({
+  nome: "Gabriel Caprioli Cardoso",
+  apelido: "Caprioli",
+  semestre: "3º SM",
+  curso: "Ciência da Computação",
+  base: ["SQL", "MySQL", "Excel", "Suporte"],
+  atual: "Suporte e Infraestrutura",
+  estudando: ["Node.js", "TypeScript", "DevOps"],
+  direcao: "Backend + Cloud + System Design"
+})
+
+▊</code></pre>
+      </aside>
+    </section>
+
+    <section id="sobre" class="section intro-grid">
+      <div>
+        <p class="section-kicker">// sobre</p>
+        <h2>Perfil técnico com visão de operação.</h2>
+      </div>
+      <p>
+        Já atuei com análise de dados, trabalhando com SQL, MySQL, Excel, leitura de indicadores e análise voltada ao negócio. Atualmente atuo como analista de suporte e infraestrutura, onde lido com demandas técnicas, investigação de problemas e sustentação da operação. Meu próximo passo é aprofundar backend, DevOps, Cloud e arquitetura de sistemas para construir soluções mais completas e escaláveis.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">// hard skills</p>
+        <h2>Conhecimentos que já fazem parte da minha base e do meu caminho.</h2>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <span>01</span>
+          <h3>Backend</h3>
+          <p>Estudos direcionados para Node.js, TypeScript, APIs, regras de negócio e organização de serviços.</p>
+        </article>
+        <article class="card">
+          <span>02</span>
+          <h3>DevOps e Cloud</h3>
+          <p>Foco em infraestrutura, deploy, ambientes, fundamentos de cloud e práticas para manter sistemas rodando com confiabilidade.</p>
+        </article>
+        <article class="card">
+          <span>03</span>
+          <h3>Dados e SQL</h3>
+          <p>Experiência com SQL, MySQL, Excel, análise de dados e leitura de indicadores para apoiar decisões.</p>
+        </article>
+        <article class="card">
+          <span>04</span>
+          <h3>System Design</h3>
+          <p>Estudo de arquitetura, escalabilidade, integração entre serviços e decisões técnicas pensando no crescimento do sistema.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack-section">
+      <div class="section-heading">
+        <p class="section-kicker">// stack</p>
+        <h2>Tecnologias no meu radar.</h2>
+      </div>
+      <div class="logo-grid" aria-label="Tecnologias estudadas e utilizadas">
+        <article class="logo-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+          <span>Node.js</span>
+        </article>
+        <article class="logo-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+          <span>TypeScript</span>
+        </article>
+        <article class="logo-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <span>JavaScript</span>
+        </article>
+        <article class="logo-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+          <span>MySQL</span>
+        </article>
+        <article class="logo-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+          <span>Docker</span>
+        </article>
+        <article class="logo-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS">
+          <span>Cloud</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos" class="section projects-section">
+      <div class="section-heading">
+        <p class="section-kicker">// projetos</p>
+        <h2>Projetos que conectam tecnologia com operação real.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div>
+            <span class="project-label">CRM</span>
+            <h3>CRM Gestão para Beleza</h3>
+          </div>
+          <p>
+            Projeto voltado para gestão de relacionamento, organização de clientes e apoio à rotina de negócios da área da beleza.
+          </p>
+          <div class="project-tags">
+            <span>Gestão</span>
+            <span>Clientes</span>
+            <span>Operação</span>
+          </div>
+        </article>
+
+        <article class="project-card featured-project">
+          <div>
+            <span class="project-label">CRM inteligente</span>
+            <h3>Omini Nexo</h3>
+          </div>
+          <p>
+            CRM inteligente pensado para clínicas de medicina veterinária e petshops, com foco em centralizar informações, melhorar atendimento e dar mais clareza para a operação.
+          </p>
+          <div class="project-tags">
+            <span>Veterinária</span>
+            <span>Petshop</span>
+            <span>CRM</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="atuacao" class="section split">
+      <div>
+        <p class="section-kicker">// atuação atual</p>
+        <h2>Suporte, infraestrutura e resolução de problemas.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>Hoje</strong>
+          <p>Atuo como analista de suporte e infraestrutura, lidando com demandas técnicas, atendimento, diagnóstico e manutenção da operação.</p>
+        </div>
+        <div class="timeline-item">
+          <strong>Direção</strong>
+          <p>Estou evoluindo para backend e DevOps, com foco em Node.js, TypeScript, Cloud e System Design.</p>
+        </div>
+        <div class="timeline-item">
+          <strong>Base</strong>
+          <p>Trago experiência com análise de dados, SQL, MySQL e Excel, o que fortalece minha leitura de processos e negócio.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="estudos" class="section studies">
+      <p class="section-kicker">// direcionamento</p>
+      <h2>Para onde estou direcionando meus estudos.</h2>
+      <div class="study-list">
+        <p>Backend com Node.js</p>
+        <p>TypeScript</p>
+        <p>DevOps</p>
+        <p>Cloud</p>
+        <p>System Design</p>
+        <p>APIs e arquitetura</p>
+        <p>Banco de dados</p>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <p class="section-kicker">// contato</p>
+      <h2>Vamos conversar?</h2>
+      <p>Aberto para conexões, oportunidades de aprendizado e projetos que misturem backend, infraestrutura, cloud, dados e operação.</p>
+      <div class="contact-links" aria-label="Contatos de Gabriel Caprioli Cardoso">
+        <a href="https://www.linkedin.com/in/gabriel-caprioli-7326bb378/" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span>
+          gabriel-caprioli
+        </a>
+        <a href="mailto:caprioli.dev@gmail.com">
+          <span>E-mail</span>
+          caprioli.dev@gmail.com
+        </a>
+        <a href="tel:+5511957365455">
+          <span>Telefone</span>
+          11 95736-5455
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+
+    window.addEventListener("beforeunload", () => {
+      window.scrollTo(0, 0);
+    });
+
+    window.addEventListener("load", () => {
+      window.scrollTo(0, 0);
+    });
+
+    const bootCode = document.querySelector("#boot-code");
+    const loader = document.querySelector(".intro-loader");
+    const code = `const caprioli = await init({\n  nome: "Gabriel Caprioli Cardoso",\n  conhecidoComo: "Caprioli",\n  idade: 19,\n  curso: "Ciência da Computação",\n  foco: ["Backend", "DevOps", "Cloud"],\n  stack: ["Node.js", "TypeScript", "SQL"],\n  estudando: "System Design"\n})`;
+
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function finishBoot() {
+      loader.classList.add("is-done");
+      document.body.classList.remove("is-booting");
+    }
+
+    if (prefersReducedMotion) {
+      bootCode.textContent = code;
+      finishBoot();
+    } else {
+      let index = 0;
+      const type = () => {
+        bootCode.textContent = code.slice(0, index);
+        index += 1;
+
+        if (index <= code.length) {
+          window.setTimeout(type, index % 9 === 0 ? 42 : 18);
+          return;
+        }
+
+        window.setTimeout(finishBoot, 780);
+      };
+
+      window.setTimeout(type, 460);
+    }
+  </script>
+</body>
+</html>
