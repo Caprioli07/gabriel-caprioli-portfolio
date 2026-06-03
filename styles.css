@@ -67,7 +67,7 @@ a {
 }
 
 .intro-loader pre {
-  min-height: 252px;
+  min-height: 360px;
   border: 0;
   padding: 0;
   overflow: hidden;
@@ -691,6 +691,11 @@ pre {
   .contact-links a {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .intro-loader pre {
+    min-height: 410px;
+    font-size: 16px;
   }
 }
 
