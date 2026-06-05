@@ -58,7 +58,18 @@
         </div>
         <pre><code>// construindo perfil.ts
 
-const caprioli = await build({
+type Perfil = {
+  nome: string;
+  apelido: string;
+  semestre: string;
+  curso: string;
+  base: string[];
+  atual: string;
+  estudando: string[];
+  direcao: string;
+}
+
+const caprioli: Perfil = {
   nome: "Gabriel Caprioli Cardoso",
   apelido: "Caprioli",
   semestre: "3º SM",
@@ -67,7 +78,7 @@ const caprioli = await build({
   atual: "Suporte e Infraestrutura",
   estudando: ["Node.js", "TypeScript", "DevOps"],
   direcao: "Backend + Cloud + System Design"
-})
+};
 
 ▊</code></pre>
       </aside>
@@ -254,7 +265,7 @@ const caprioli = await build({
 
     const bootCode = document.querySelector("#boot-code");
     const loader = document.querySelector(".intro-loader");
-    const code = `const caprioli = await init({\n  nome: "Gabriel Caprioli Cardoso",\n  conhecidoComo: "Caprioli",\n  idade: 19,\n  curso: "Ciência da Computação",\n  foco: ["Backend", "DevOps", "Cloud"],\n  stack: ["Node.js", "TypeScript", "SQL"],\n  objetivo: "dominar essas stacks",\n  estudando: ["System Design", "Cloud", "DevOps"]\n})\n\nconsole.log("Agora conheça um pouco mais sobre mim.")`;
+    const code = `const caprioli = {\n  nome: "Gabriel Caprioli Cardoso",\n  idade: 19,\n  curso: "Ciência da Computação",\n  estudos: ["Backend", "DevOps", "Cloud"]\n} as const;\n\nconsole.log("Agora conheça mais sobre mim.")`;
 
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 

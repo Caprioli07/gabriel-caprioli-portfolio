@@ -67,12 +67,12 @@ a {
 }
 
 .intro-loader pre {
-  min-height: 360px;
+  min-height: 250px;
   border: 0;
   padding: 0;
   overflow: hidden;
   color: #ffffff;
-  font-size: clamp(18px, 4vw, 36px);
+  font-size: clamp(15px, 3vw, 28px);
   line-height: 1.35;
   white-space: pre-wrap;
 }
@@ -346,8 +346,8 @@ pre {
   overflow-x: auto;
   color: #f5fff3;
   font-family: "JetBrains Mono", monospace;
-  font-size: 14px;
-  line-height: 1.85;
+  font-size: 13px;
+  line-height: 1.72;
 }
 
 .section {
@@ -694,8 +694,8 @@ pre {
   }
 
   .intro-loader pre {
-    min-height: 410px;
-    font-size: 16px;
+    min-height: 300px;
+    font-size: 14px;
   }
 }
 
